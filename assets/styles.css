@@ -1,0 +1,104 @@
+:root {
+    --text-color: #333;
+    --accent-color: #12a8ce;
+    --background-color: #ffffff;
+    --link-color: #0000EE;
+    --visited-link-color: #551A8B;
+    font-feature-settings: "liga" 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Saira", monospace;
+    font-size: 18px;
+    color: var(--text-color);
+    /* line-height: 1.5em; */
+    /* font-weight: normal; */
+    /* min-height: 100vh; */
+    margin: 6em;
+    /* padding: 40px 0; */
+}
+
+#footprint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-box {
+    padding: 25px 30px;
+    border-radius: 5px;
+    border:rgb(219, 219, 219) 2px dotted;
+    display: inline-block;
+    width: 60%;
+}
+
+p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+nav {
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+footer {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration-thickness: 1px;
+}
+
+a:visited {
+    color: var(--visited-link-color);
+}
+
+a:hover {
+    text-decoration-style: dotted;
+}
+
+.navlink:visited {
+    color: var(--link-color);
+}
+
+h1, h2, h3 {
+    font-family: "Josefin Sans";
+    margin: 0;
+    padding: 5px 0 15px 0;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.35em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+
+hr {
+    margin: 20px 0;
+    border: 1px solid lightgray;
+}
+
+/* superscripts that don't interfere with line height spacing */
+sup {
+    line-height: 0;
+    font-size: 0.83em;
+    vertical-align: super;
+}
